@@ -23,8 +23,18 @@ Download Newer College Dataset from https://ori-drs.github.io/newer-college-data
 source devel/setup.bash
 roslaunch if_lio Newer_college.launch
 ```
+#### 2.2 ENWIDE Dataset
+Download ENWIDE Dataset from https://projects.asl.ethz.ch/datasets/enwide/
+```bash
+source devel/setup.bash
+roslaunch if_lio ENWIDE.launch
+```
 
 ### 3 Mapping Result
 #### 3.1 Newer College Dataset 
 ##### quad-hard
 ![quard_hard](figs/quad_hard.png)
+
+#### 3.2 ENWIDE Dataset 
+##### runway_d
+![runway_d](figs/runway_d.png)
