@@ -41,6 +41,7 @@ roslaunch if_lio ENWIDE.launch
 
 #### 3.3 self-collected Dataset
 ##### playground
+![playground](figs/playground3_method_compare.png)
 
 
 ### 4 Acknowledgements
