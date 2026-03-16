@@ -17,7 +17,7 @@ catkin_make
 ```
 
 ### 2 Run
-#### 2.1Newer College Dataset
+#### 2.1 Newer College Dataset
 Download Newer College Dataset from https://ori-drs.github.io/newer-college-dataset/
 ```bash
 source devel/setup.bash
