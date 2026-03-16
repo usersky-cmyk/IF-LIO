@@ -25,5 +25,6 @@ roslaunch if_lio Newer_college.launch
 ```
 
 ### 3 Mapping Result
-#### 3.1 Newer College Dataset
+#### 3.1 Newer College Dataset 
+##### quad-hard
 ![quard_hard](figs/quad_hard.png)
