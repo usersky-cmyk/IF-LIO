@@ -6,8 +6,22 @@ IF-LIO is a degeneration-aware intensity-assisted LiDAR-SLAM framework that impr
 
 ![Overview](figs/overview.png)
 
-### Run
-#### Newer College Dataset
-Download Newer College Dataset from https://ori-drs.github.io/newer-college-dataset/
+### 1 Build
+```bash
+cd <your workspace>
+mkdir src
+cd src
+git clone https://github.com/usersky-cmyk/IF-LIO.git
+cd ..
+catkin_make
+'''
 
-### Mapping Result
+### 2 Run
+#### 2.1Newer College Dataset
+Download Newer College Dataset from https://ori-drs.github.io/newer-college-dataset/
+```bash
+source devel/setup.bash
+roslaunch if_lio Newer_college.launch
+```
+
+### 3 Mapping Result
