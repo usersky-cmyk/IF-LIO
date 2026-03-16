@@ -38,3 +38,15 @@ roslaunch if_lio ENWIDE.launch
 #### 3.2 ENWIDE Dataset 
 ##### runway_d
 ![runway_d](figs/runway_d.png)
+
+#### 3.3 self-collected Dataset
+##### playground
+
+
+### 4 Acknowledgements
+Thanks for the below great open-source project for providing references to this work.
+- [FAST-LIO](https://github.com/hku-mars/FAST_LIO)
+- [btsa](https://github.com/thisparticle/btsa)
+- [RMS](https://github.com/ctu-mrs/RMS)
+- [PV-LIO](https://github.com/HViktorTsoi/PV-LIO)
+
