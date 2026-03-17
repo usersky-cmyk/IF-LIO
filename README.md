@@ -30,6 +30,14 @@ source devel/setup.bash
 roslaunch if_lio ENWIDE.launch
 ```
 
+#### 2.3 Self-collected Dataset
+Download Self-collected Dataset from https://pan.baidu.com/s/1O7TMEtp_MsC5haGQPSLjsw (password: 1234)
+```bash
+source devel/setup.bash
+roslaunch if_lio avia.launch
+```
+
+
 ### 3 Mapping Result
 #### 3.1 Newer College Dataset 
 ##### quad-hard
