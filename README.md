@@ -44,9 +44,9 @@ roslaunch if_lio avia.launch
 |------------------|-------------------|-------------------|----------------|----------------|
 | [LIO-SAM](https://github.com/TixiaoShan/LIO-SAM) | 0.299 | 0.145 | × | 1.566 |
 | [FAST-LIO2](https://github.com/hku-mars/FAST_LIO) | 0.049 | 0.078 | × | 0.310 |
-| [RI-LIO](https://github.com/hku-mars/RI-LIO) | 0.237 | 0.285 | × | 89.289 |
-| [COIN-LIO](https://github.com/PRBonn/COIN-LIO) | 0.046 | 0.078 | 0.102 | 0.287 |
-| [PG-LIO](https://github.com/hku-mars/PG-LIO) | 0.054 | 0.097 | **0.077** | 0.331 |
+| [RI-LIO](https://github.com/RoboFeng/RI-LIO) | 0.237 | 0.285 | × | 89.289 |
+| [COIN-LIO](https://github.com/ethz-asl/COIN-LIO) | 0.046 | 0.078 | 0.102 | 0.287 |
+| [PG-LIO](https://github.com/ntnu-arl/mimosa) | 0.054 | 0.097 | **0.077** | 0.331 |
 | **Ours** | **0.045** | **0.067** | 0.092 | **0.241** |
 ##### quad-hard
 ![quard_hard](figs/quad_hard.png)
