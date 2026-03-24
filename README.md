@@ -52,10 +52,29 @@ roslaunch if_lio avia.launch
 ![quard_hard](figs/quad_hard.png)
 
 #### 3.2 ENWIDE Dataset 
+| Method (Length m) | TunnelS (251.58) | TunnelD (179.71) | IntersectionS (279.47) | IntersectionD (388.47) | RunwayS (333.57) | RunwayD (357.14) | FieldS (232.70) | FieldD (287.91) | KatzenseeS (242.88) | KatzenseeD (177.20) |
+|------------------|------------------|------------------|------------------------|------------------------|------------------|------------------|-----------------|-----------------|---------------------|---------------------|
+| [LIO-SAM](https://github.com/TixiaoShan/LIO-SAM) | × | × | × | × | × | × | × | × | 5.588 | × |
+| [FAST-LIO2](https://github.com/hku-mars/FAST_LIO) | × | × | 12.437 | 23.800 | × | × | 0.163 | 9.209 | 1.122 | 1.02 |
+| [RI-LIO](https://github.com/RoboFeng/RI-LIO) | × | × | × | × | × | × | 1.721 | 24.851 | × | × |
+| [COIN-LIO](https://github.com/ethz-asl/COIN-LIO) | 0.743 | 0.487 | 0.466 | 1.912 | 1.033 | 2.437 | 0.232 | 0.581 | 0.412 | 0.592 |
+| [PG-LIO](https://github.com/ntnu-arl/mimosa) | **0.635** | **0.425** | 0.279 | 0.473 | 0.491 | 3.273 | 0.274 | 0.206 | 0.260 | 0.355 |
+| **Ours** | 1.786 | 0.937 | **0.231** | **0.413** | **0.480** | **2.093** | **0.194** | **0.192** | **0.246** | **0.271** |
 ##### runway_d
 ![runway_d](figs/runway_d.png)
 
-#### 3.3 self-collected Dataset
+#### 3.3 GEODE Dataset
+
+| Method (Length m) | Shield_tunnel1 (γ) | Shield_tunnel2 (γ) | Shield_tunnel3 (γ) | Shield_tunnel4 (γ) | Shield_tunnel5 (γ) | Shield_tunnel6 (γ) |
+|------------------|------------------|------------------|------------------|------------------|------------------|------------------|
+| [LIO-SAM](https://github.com/TixiaoShan/LIO-SAM) | × | × | × | × | × | × |
+| [FAST-LIO2](https://github.com/hku-mars/FAST_LIO) | × | × | × | × | × | × |
+| [RI-LIO](https://github.com/RoboFeng/RI-LIO) | -- | -- | -- | -- | -- | -- |
+| [COIN-LIO](https://github.com/ethz-asl/COIN-LIO) | -- | -- | -- | -- | -- | -- |
+| [PG-LIO](https://github.com/ntnu-arl/mimosa) | -- | -- | -- | -- | -- | -- |
+| **Ours** | **1.189** | **0.778** | **1.996** | **1.972** | **7.257** | **0.428** |
+
+#### 3.4 self-collected Dataset
 ##### playground
 ![playground](figs/playground3_method_compare.png)
 
